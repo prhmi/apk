@@ -1,7 +1,19 @@
 @echo off
 set/p input= type the password please: 
 
-if NOT %input%== fishtoo goto :FAIL
+if %input%== fishtoo set result=true
+if %input%== fisht set result=true
+if %input%== vooshi set result=true
+if %input%== vushi set result=true
+if %input%== jiguli set result=true
+if %input%== love set result=true
+if %input%== 8dey set result=true
+if %input%== dey8 set result=true
+
+
+if NOT "%result%"== "true" (
+goto :FAIL
+)
 msg * that's right. let's see your gift
 msg *  \\\hugs// deep and vooshi
 msg * i put a digital hug in there, so If the world changes, this feeling will remain for us
@@ -16,4 +28,3 @@ goto :end
 msg * No! that's not the password. search it in your heart...
 
 :end
-
