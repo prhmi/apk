@@ -10,9 +10,10 @@ if NOT "%result%"== "true" (
 goto :FAIL
 )
 msg * that's right. let's see your gift
-msg * pick a happy memory and write it down
-msg * put it in my bag and wait for LEVEL 2
-msg * okay, now make a wish
+msg * pick a happy memory
+msg * replay the E-mail with that memory
+msg * okay, wait for LEVEL 3
+msg * now make a wish
 msg * happy birthday
 goto :end
 :FAIL
