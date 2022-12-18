@@ -10,13 +10,9 @@ if NOT "%result%"== "true" (
 goto :FAIL
 )
 msg * that's right. let's see your gift
-msg *  \\\hugs// deep and vooshi
-msg * i put a digital hug in there, so If the world changes, this feeling will remain for us
-msg * now close your eyes and pick a happy memory
-msg * okay, i'm in your head now
-msg * and in your heart
-msg * and i will always stay here with you
-msg * now make a wish
+msg * pick a happy memory and write it down
+msg * put it in my bag and wait for LEVEL 2
+msg * okay, now make a wish
 msg * happy birthday
 goto :end
 :FAIL
